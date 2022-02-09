@@ -251,32 +251,79 @@ section.register {
 
 
 section.footer h3{
-    font-size: 30px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: orangered;
 }
 section.footer{
     width: 100%;
-    text-align: center;
     font-weight: 500;
     padding-bottom: 40px;
-    background-color: #E4EFE7;
+    background-color: rgb(224, 250, 224);
     padding-top: 30px;
 }
 
+div.footerDisplay{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+div.footer{
+    padding-top: 50px;
+    flex-basis: 31%;
+    background: white;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 25px;
+}
+
+
+ul.qL li::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: orangered;
+    display: block;
+    transition: 0.2s;
+}
+
+ul.qL li:hover::after{
+    width: 10%;
+}
+
+div.icons{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
 div.icons .fa{
-    color: green;
     padding-bottom: 30px;
     margin: 10px;
     padding: 10px 0;
     cursor: pointer;
 }
 
-ul.dev{
+input.email{
+    color: gray;
+    border: 2px solid rgb(114, 112, 112);
+    height: 40px;
     text-align: center;
-    margin: 20px;
-    padding-left: 50px;
 }
 
+button.submit{
+    background-color: rgb(255, 199, 179);
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
 /*----------------------NEW PAGE - RECYCLING AND DECOMPOSITION--------------- */
 
 
