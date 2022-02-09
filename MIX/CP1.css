@@ -12,14 +12,35 @@ a.Logo{
     margin-left: 90px;
     padding-top: 30px;
 }
-.header {
-    height: 100vh;
-    width: 100%;
-    background-image: url(img7.jpg);
+section.header {
+
+    height: 250px;
+    /* width: 100%;
+    background-image: url(bg10.webp);
     background-position: center;
     background-size: cover;
     position: relative;
+    margin-bottom: 5px; */
+    background-color: white;
 }
+
+section.aboutRGW{ 
+    height: 500px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    /* height: 100vh;
+    width: 100%;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+    
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -90,7 +111,7 @@ a.button1{
 /* hover effect when we click on button */
 a.button1:hover{
     border: 2px solid black;
-    background: rgb(252, 252, 161);
+    background: #C1DEAE;
     transition: 1s;
 }
 /* to look good on mobile phone screen */
@@ -122,10 +143,11 @@ a.button1:hover{
 
 
 section.categories{
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }    
 section.categories h1{
     font-size: 50px;
@@ -151,7 +173,7 @@ section.categories h2{
 .cat-col{
     /* to give space */
     flex-basis: 31%;
-    background: rgb(253, 230, 246);
+    background: #F2F5C8;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -159,7 +181,7 @@ section.categories h2{
 
 /* to give this flex a hover effect with a shadow */
 .cat-col:hover{ border: 2px solid darkolivegreen;
-    background: rgb(252, 252, 161);
+    background: #C1DEAE;
     transition: 1s;
     box-shadow: 0 0 20px 0px black;
 }
@@ -180,21 +202,23 @@ section.reviews{
     width: 80%;
     margin: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
+    background-color: #FFEDDB;
 }
 div.review-col{
     padding-top: 50px;
     flex-basis: 31%;
-    background: rgb(255, 215, 199);
+    background: #EDCDBB;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
     padding: 25px;
 }
 
-div.review-col:hover{ border: 2px solid darkolivegreen;
+div.review-col:hover{ border: 2px solid rgb(250, 177, 177);
     transition: 0.5s;
     box-shadow: 0 0 20px 0px black;
 }
@@ -227,7 +251,7 @@ section.register {
 
 
 section.footer h3{
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom: 30px;
 }
 section.footer{
@@ -235,21 +259,41 @@ section.footer{
     text-align: center;
     font-weight: 500;
     padding-bottom: 40px;
+    background-color: #E4EFE7;
+    padding-top: 30px;
 }
 
 div.icons .fa{
     color: green;
     padding-bottom: 30px;
-    margin: 13px;
+    margin: 10px;
     padding: 10px 0;
     cursor: pointer;
 }
 
-
+ul.dev{
+    text-align: center;
+    margin: 20px;
+    padding-left: 50px;
+}
 
 /*----------------------NEW PAGE - RECYCLING AND DECOMPOSITION--------------- */
 
 
+
+section.recycle{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 450px;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* 
 section.sub-header{
     height: 50vh;
     width: 100%;
@@ -264,7 +308,8 @@ section.sub-header{
 section.sub-header h1{
     font-size: 50px;
     padding-top: 50px;
-}
+} */
+
 
 div.centerText {
     font-size: 50px;
@@ -272,17 +317,22 @@ div.centerText {
     text-align: center;   
 }
 div.centerText h1{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+div.centerText h2{
+    padding-bottom: 30px;
+    font-size: 40px;
 }
 
 a.decomposition{
     font-size: 50px;
-    color: green;
-    padding-right: 200px;
+    color: rgb(114, 97, 0);
+    padding-right: 100px;
+    padding-top: 100px;
 }
 a.recycling{
     font-size: 50px;
-    color: green;
+    color: rgb(117, 100, 0);
     padding-left: 200px;
 }
 
@@ -324,12 +374,6 @@ h3.big{
     padding-bottom: 20px;
 }
 
-section.recycle{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
 
 section.aboutRecycle h2{
     text-align: center;
@@ -362,6 +406,7 @@ ol.decompose{
     font-size: 20px;
     text-align: left;
     padding-left: 350px;
+    padding-bottom: 50px;
 }
 
 
@@ -396,11 +441,16 @@ div.icons .fa{
 section.aboutDecomposition div{
     font-size: 40px;
     text-align: center;
-    padding-top: 100px;
     padding-bottom: 60px;
-
 }
 
+h1.header1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: goldenrod;
+}
 
 
 /* -----Section for Cards-------- */
@@ -469,6 +519,13 @@ section.aboutRecycling div{
 
 }
 
+h1.header1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: goldenrod;
+}
 
 
 /* -----Section for Cards-------- */
