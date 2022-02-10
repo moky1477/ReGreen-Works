@@ -4,6 +4,24 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
+    button.button1{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        padding: 12px 34px;
+        font-size: 20px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    /* hover effect when we click on button */
+    button.button1:hover{
+        border: 2px solid black;
+        background: #C1DEAE;
+        transition: 1s;
+    }
 
 a.Logo{
     font-size: 30px;
@@ -147,7 +165,6 @@ section.categories{
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 100px;
 }    
 section.categories h1{
     font-size: 50px;
@@ -187,42 +204,6 @@ section.categories h2{
 }
 
 
-
-/* ------------------Review Section -------------------*/
-
-section.reviews h1{
-    font-size: 50px;
-}
-section.reviews h2{
-    font-size: 16px;
-    font-weight: bold;
-    color: darkslategray
-}
-section.reviews{
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    background-color: #FFEDDB;
-}
-div.review-col{
-    padding-top: 50px;
-    flex-basis: 31%;
-    background: #EDCDBB;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    padding: 25px;
-}
-
-div.review-col:hover{ border: 2px solid rgb(250, 177, 177);
-    transition: 0.5s;
-    box-shadow: 0 0 20px 0px black;
-}
-
 /* --------------New section for join us and register----------- */
 
 section.register h1{
@@ -245,6 +226,65 @@ section.register{
 
 section.register {
     color: black;
+}
+
+div.reg{
+    padding: 10px 20px;
+}
+div.reg h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+form.reg input, form.reg textarea{
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: white;
+}
+
+form.reg button{
+    margin: 20px;
+}
+
+/* ------------------Review Section -------------------*/
+
+section.reviews h1{
+    font-size: 50px;
+}
+section.reviews h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: darkslategray
+}
+section.reviews{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    background-color: #FFEDDB;
+    margin-bottom: 100px;
+}
+div.review-col{
+    padding-top: 50px;
+    flex-basis: 31%;
+    background: #EDCDBB;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 25px;
+}
+
+div.review-col:hover{ border: 2px solid rgb(250, 177, 177);
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px black;
 }
 
 /* ------------------Footer ------------- */
@@ -654,3 +694,65 @@ p.cardPara{
     background-image: url("plastic.jpg");
 }
 
+/* --------------------------------New page - About ReGreen Works (Blog page type)-------------------------- */
+
+section.header-AboutRGW{
+    height: 450px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+h2.RGW{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section.content{
+    width: 80%;
+    margin: auto;
+}
+
+div.left{
+    flex-basis: 55%;
+}
+div.left img{
+    width: 100%;
+}
+div.right{
+    margin-left: 40px;
+}
+div.right img{
+    width: 100%;
+}
+
+/* New Section : Comments */
+
+div.commentBox{
+    border: 2px solid orangered;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+div.commentBox h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+form.comments input, form.comments textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: rgb(235, 233, 233);
+}
+
+form.comments button{
+    margin: 20px;
+}
