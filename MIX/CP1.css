@@ -14,13 +14,13 @@ a.Logo{
 }
 section.header {
 
-    height: 250px;
-    /* width: 100%;
+    height: 650px;
+    width: 100%;
     background-image: url(bg10.webp);
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom: 5px; */
+    margin-bottom: 5px;
     background-color: white;
 }
 
@@ -259,7 +259,7 @@ section.footer{
     width: 100%;
     font-weight: 500;
     padding-bottom: 40px;
-    background-color: rgb(224, 250, 224);
+    background-color: #C1DEAE;
     padding-top: 30px;
 }
 
@@ -324,9 +324,18 @@ button.submit{
     margin-top: 10px;
     cursor: pointer;
 }
-/*----------------------NEW PAGE - RECYCLING AND DECOMPOSITION--------------- */
+/*----------------------NEW PAGE - About (Get Started)--------------- */
 
-
+section.sub-header{
+        height: 250px;
+        width: 100%;
+        background-image: url(bg10.webp);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 30px;
+        background-color: white;
+}
 
 section.recycle{
     width: 95%;
@@ -334,9 +343,9 @@ section.recycle{
     text-align: center;
     padding-top: 100px;
     height: 450px;
-    background-image: url(bg10.webp);
+    /* background-image: url(bg8.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     position: relative;
 }
 
@@ -362,6 +371,7 @@ div.centerText {
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;   
+    margin: auto;
 }
 div.centerText h1{
     padding-bottom: 30px;
@@ -373,14 +383,13 @@ div.centerText h2{
 
 a.decomposition{
     font-size: 50px;
-    color: rgb(114, 97, 0);
-    padding-right: 100px;
-    padding-top: 100px;
+    color: rgb(114, 97, 0); 
+    margin: 100px;
 }
 a.recycling{
     font-size: 50px;
     color: rgb(117, 100, 0);
-    padding-left: 200px;
+    margin: 100px;
 }
 
 
@@ -412,7 +421,9 @@ a.recycling:hover::after{
     transition: 1s;
 } */
 
-
+section.aboutRecycle{
+    background-color: #FEFFDE;
+}
 h3.big{
     font-size: 30px;
     color: green;
@@ -485,9 +496,21 @@ div.icons .fa{
 
 /* ------Section for about decomposition---- */
 
+section.header-DR {
+    height: 450px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
 section.aboutDecomposition div{
     font-size: 40px;
     text-align: center;
+    padding-top: 100px;
     padding-bottom: 60px;
 }
 
