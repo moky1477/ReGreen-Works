@@ -32,7 +32,7 @@ a.Logo{
 }
 section.header {
 
-    height: 650px;
+    height: 700px;
     width: 100%;
     background-image: url(bg10.webp);
     background-position: center;
@@ -755,4 +755,60 @@ form.comments input, form.comments textarea{
 
 form.comments button{
     margin: 20px;
+}
+
+
+/* -----------------------------New page - Contact Us------------------------------- */
+
+section.contact-us-header {
+
+    height: 500px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+div.row h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.contactUs{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 45%;
+    margin-bottom: 30px;
+}
+div.contact-col div{
+    align-items: center;
+    margin-bottom: 40px;
+}
+div.contact-col div .fa{
+     font-size: 25px;
+     color: goldenrod;
+     margin: 10px;
+}
+
+div.contact-col input, div.contact-col textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid goldenrod;
+    box-sizing: border-box;
+}
+div.contact-col button{
+    text-align: center;
+    margin-right: 30px;
+}
+
+img.img-contact{
+    padding-top: 50px;
+    padding-left: 200px;
 }
