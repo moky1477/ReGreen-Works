@@ -41,6 +41,30 @@ section.header {
     margin-bottom: 5px;
     background-color: white;
 }
+/* ----------stay on top?-------------- */
+
+/* .navLinks {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 90%; 
+    text-align: center;
+  }
+  
+  .navLinks a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navLinks a:hover {
+    background: #ddd;
+    color: black;
+  } */
 
 section.aboutRGW{ 
     height: 500px;
@@ -79,7 +103,7 @@ div.navLinks ul li {
 div.navLinks ul li a:link{
     color: darkgreen;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -97,6 +121,10 @@ div.navLinks ul li::after{
 div.navLinks ul li:hover::after{
     width: 100%;
     transition: 0.5s;
+}
+
+h1.mainHead{
+    color: rgb(103, 134, 103);
 }
 
 div.aboutRGW{
@@ -190,7 +218,7 @@ section.categories h2{
 .cat-col{
     /* to give space */
     flex-basis: 31%;
-    background: #F2F5C8;
+    background: #D3E4CD;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -199,7 +227,7 @@ section.categories h2{
 /* to give this flex a hover effect with a shadow */
 .cat-col:hover{ border: 2px solid darkolivegreen;
     background: #C1DEAE;
-    transition: 1s;
+    transition: 0.5s;
     box-shadow: 0 0 20px 0px black;
 }
 
@@ -367,7 +395,7 @@ button.submit{
 /*----------------------NEW PAGE - About (Get Started)--------------- */
 
 section.sub-header{
-        height: 250px;
+        height: 300px;
         width: 100%;
         background-image: url(bg10.webp);
         background-position: center;
@@ -577,7 +605,7 @@ section.decompCards{
 }
 
 .card{
-    background: rgb(252, 252, 161);
+    background: #90E0EF;
     width: 450px;
     height: 380px;
     margin: 20px;
@@ -652,7 +680,7 @@ section.recycleCards{
 }
 
 .card{
-    background: rgb(252, 252, 161);
+    background: #D1D1D1;
     width: 450px;
     height: 380px;
     margin: 20px;
@@ -675,7 +703,7 @@ p.cardPara{
 }
 
 .card:hover{
-    background-color: lightslategray;
+    background-color: #7882A4;
     color: white;
     transform: scale(1.08);
     transition: 0.1s;
