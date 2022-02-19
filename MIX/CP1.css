@@ -27,8 +27,11 @@ a.Logo{
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: darkgreen;
-    margin-left: 90px;
+    margin-left: 490px;
+    margin-top: 30px;
     padding-top: 30px;
+    display: block;
+    
 }
 section.header {
 
@@ -43,9 +46,11 @@ section.header {
 }
 /* ----------stay on top?-------------- */
 
-/* .navLinks {
+.navLinks {
+    border-radius: 10px;
+    margin-top: 20px;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(103, 134, 103);
     position: fixed;
     top: 0; 
     width: 90%; 
@@ -62,9 +67,10 @@ section.header {
   }
   
   .navLinks a:hover {
-    background: #ddd;
+    background: white;
     color: black;
-  } */
+    border-radius: 10px;
+  }
 
 section.aboutRGW{ 
     height: 500px;
@@ -109,7 +115,7 @@ div.navLinks ul li a:link{
 
 /* hover (after) effect on nav bar */
 
-div.navLinks ul li::after{
+/* div.navLinks ul li::after{
     content: '';
     width: 0;
     height: 2px;
@@ -121,7 +127,7 @@ div.navLinks ul li::after{
 div.navLinks ul li:hover::after{
     width: 100%;
     transition: 0.5s;
-}
+} */
 
 h1.mainHead{
     color: rgb(103, 134, 103);
@@ -134,7 +140,7 @@ div.aboutRGW h1{
 
     font-size: 60px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 30px;
 }
 div.aboutRGW p{
