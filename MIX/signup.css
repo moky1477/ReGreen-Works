@@ -70,7 +70,7 @@ html,body{
     z-index: 0;
     border-radius: 5px;
     transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-    background: -webkit-linear-gradient(left, #00ff00, #ff0000);
+    background: -webkit-linear-gradient(left, olive, goldenrod);
 }
 input[type="radio"]{
     display: none;
@@ -104,12 +104,12 @@ input[type="radio"]{
     padding-left: 15px;
     font-size: 17px;
     border-radius: 5px;
-    border: 1px solid lightgrey;
+    border: 1px solid black;
     border-bottom-width: 2px;
     transition: all 0.5s ease;
 }
 .form-inner form .field input:focus{
-    border-color: #fc83bb;
+    border-color: #b3fc83;
 }
 .form-inner form .pass-link{
     text-align: center;
@@ -120,7 +120,7 @@ input[type="radio"]{
 }
 .form-inner form .pass-link a,
 .form-inner form .signup-link a{
-    color: #fa4299;
+    color: rgb(103, 134, 103);
     text-decoration: none;
 }
 .form-inner form .pass-link a:hover,
@@ -130,7 +130,7 @@ input[type="radio"]{
 
 form .field input[type="submit"]
 {
-    background:-webkit-linear-gradient(left,    a445b2, #fa4299);
+    background:-webkit-linear-gradient(left, a445b2, #fa4299);
     color: #fff;
     font-size: 20px;
     font-weight: 500;

@@ -846,3 +846,53 @@ img.img-contact{
     padding-top: 50px;
     padding-left: 200px;
 }
+
+
+
+/* ---------------------------------New Page - FAQ------------------------------------------- */
+
+section.faqBody{
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #C1DEAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.faqContainer{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 200px;    
+}
+
+div.accordion-item{
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 2 0px;
+    box-shadow: 5px 2px 5px darkolivegreen;
+}
+
+a.accordion-link{
+    color: darkolivegreen;
+    text-decoration: none;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+div.answer{
+    font-size: 15px;
+    position: relative;
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 17px;
+}
