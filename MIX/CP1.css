@@ -719,13 +719,25 @@ p.cardPara{
     background-image: url("plastic.jpg");
 }
 .dec2{
-    background-image: url("plastic.jpg");
+    background-image: url("battery-recycling.jpg");
 }
 .dec3{
-    background-image: url("plastic.jpg");
+    background-image: url("recycle-cardboard.jpg");
 }
 .dec4{
-    background-image: url("plastic.jpg");
+    background-image: url("recycle-glass.jpg");
+}
+.dec5{
+    background-image: url("recycle-metal.jpg");
+}
+.dec6{
+    background-image: url("recycle-paper.jpg");
+}
+.dec7{
+    background-image: url("recycle-textile.webp");
+}
+.dec8{
+    background-image: url("recycle-tires.jpg");
 }
 
 /* --------------------------------New page - About ReGreen Works (Blog page type)-------------------------- */
@@ -895,4 +907,16 @@ div.answer{
     background-color: lightgray;
     padding: 20px;
     font-size: 17px;
+}
+
+
+section.header-extra {
+    height: 450px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
 }
